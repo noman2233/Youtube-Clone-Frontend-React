@@ -1,0 +1,15 @@
+.home{
+    display: flex;
+    flex: 1;
+}
+.menu_home{
+    flex: 7;
+    
+}
+.home_card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  
+}

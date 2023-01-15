@@ -1,0 +1,48 @@
+.navbar {
+  padding: 10px 0px;
+  position: sticky;
+  top: 0;
+  margin: 5px 0px;
+  background-color: #fff;
+}
+.input_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 6px 0px;
+  width: 40%;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  background-color: #fff;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+.navbar_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  position: relative;
+}
+.search_bar {
+  border-radius: 3px;
+  width: 30vw;
+  border: 1px solid rgb(255, 252, 252);
+  background: transparent;
+  outline: none;
+}
+.signIn_button {
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding: 8px 10px;
+  border: 2px solid blue;
+  color: rgb(49, 49, 201);
+  background-color: white;
+  gap: 10px;
+  border-radius: 4px;
+  font-size: 15px;
+  cursor: pointer;
+  margin: 0px 20px;
+  font-weight: 400px;
+}

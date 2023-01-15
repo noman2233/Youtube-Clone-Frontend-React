@@ -1,0 +1,132 @@
+.video {
+  flex: 1;
+  display: flex;
+}
+.video_container {
+  flex: 7;
+}
+.video_wrapper_container {
+  display: flex;
+  margin: 20px 20px 20px 20px;
+}
+.video_wrapper {
+  flex: 4;
+}
+.video_wrapper_video {
+}
+.video_wrapper_video_card {
+  width: 850px;
+  height: 500px;
+  object-fit: cover;
+}
+.video_card_title {
+  font-size: 15px;
+  margin: 10px 0px;
+}
+.video_full_info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.views_time {
+  font-size: 12px;
+  color: gray;
+}
+.video_like_dislike_save {
+  display: flex;
+  gap: 20px;
+}
+.info_icon {
+  display: flex;
+  align-items: center;
+  font-size: 13px;
+  gap: 10px;
+  cursor: pointer;
+}
+.logo_subscribe {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.name_subscribe_desc {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0px;
+}
+.channel_name {
+  font-size: 14px;
+  font-weight: 500;
+  padding-bottom: 6px;
+}
+.channel_subscriber {
+  font-size: 12px;
+  color: gray;
+}
+.name_subs {
+  padding: 10px 0px;
+}
+.video_desc {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 22px;
+}
+.subscribe_button {
+  padding: 10px 19px;
+  text-transform: uppercase;
+  cursor: pointer;
+  color: white;
+  background-color: #d70909;
+  border: none;
+  border-radius: 2px;
+  font-weight: 400;
+}
+.video_comment {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.input_comment {
+  padding: 8px 30px;
+  border-radius: 7px;
+  width: 600px;
+  border: 1px solid rgb(255, 252, 252);
+  background: transparent;
+}
+.input_comment{
+    outline: none;
+}
+.video_recomendations_container {
+  display: flex;
+  flex-direction: column;
+}
+.video_recomendations {
+  flex: 2;
+  display: flex;
+  gap: 15px;
+  margin: 0px 15px;
+  margin-bottom: 10px;
+}
+.video_reco_card {
+  width: 230px;
+  height: 120px;
+  object-fit: cover;
+}
+.card_info_reco {
+  margin: 0px 0px;
+  text-align: justify;
+}
+.card_title_reco {
+  font-size: 13px;
+  line-height: 16px;
+  font-weight: 600;
+  line-height: 18px;
+}
+.card_channel_reco {
+  font-size: 12px;
+  font-weight: 700;
+  margin: 7px 0px;
+}
+.views_time_reco {
+  font-size: 10px;
+  color: gray;
+}
